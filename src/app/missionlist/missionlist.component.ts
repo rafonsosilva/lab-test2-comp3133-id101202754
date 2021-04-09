@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 
-import { SpacexapiService } from '../spacexapi.service'
+import { SpacexapiService } from '../network/spacexapi.service'
 import { Mission } from '../models/mission'
 
 @Component({
@@ -17,7 +16,7 @@ export class MissionlistComponent implements OnInit {
 
   constructor(
     private spacexapiService: SpacexapiService,
-    
+
   ) { }
 
   ngOnInit(): void {

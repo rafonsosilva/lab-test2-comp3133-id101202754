@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
-import { SpacexapiService } from '../spacexapi.service'
+import { SpacexapiService } from '../network/spacexapi.service'
 
 import { Mission } from '../models/mission'
 
@@ -29,7 +29,6 @@ export class MissiondetailsComponent implements OnInit {
     const id = this.route.snapshot.paramMap.get('id')
     if (id != null) {
       this.mission = this.spacexapiService.findMission(Number(id))
-      console.log(this.mission)
     }
   }
 

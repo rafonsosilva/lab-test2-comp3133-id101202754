@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MissionlistComponent } from './missionlist/missionlist.component';
 import { MissiondetailsComponent } from './missiondetails/missiondetails.component';
-import { SpacexapiService } from './spacexapi.service';
+import { SpacexapiService } from './network/spacexapi.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 import { MatCardModule } from '@angular/material/card';
