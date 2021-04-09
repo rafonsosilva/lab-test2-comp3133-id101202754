@@ -1,0 +1,24 @@
+.example-card {
+  max-width: 900px;
+  background-color: lightgray;
+  margin: auto;
+}
+
+li{
+  list-style: none;
+  margin: 10px 0;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.example-header-image {
+  background-size: cover;
+}
+
+.page-title{
+  width:fit-content;
+  margin: auto
+}
